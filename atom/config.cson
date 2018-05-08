@@ -1,0 +1,99 @@
+"*":
+  core:
+    audioBeep: false
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "about"
+      "wrap-guide"
+      "welcome"
+      "timecop"
+      "styleguide"
+      "spell-check"
+      "package-generator"
+      "metrics"
+      "link"
+      "autoflow"
+      "autosave"
+      "background-tips"
+      "exception-reporting"
+      "archive-view"
+      "autocomplete-atom-api"
+      "keybinding-resolver"
+      "language-clojure"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-sass"
+      "language-sql"
+      "language-toml"
+      "language-typescript"
+      "language-xml"
+      "language-yaml"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+      "package-lock.json"
+    ]
+    packagesWithKeymapsDisabled: [
+      "terminal-tab"
+    ]
+    projectHome: "/Users/John/Documents/Code"
+    reopenProjectMenuCount: 10
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    titleBar: "custom"
+    uriHandlerRegistration: "always"
+    warnOnLargeFileLimit: 10
+  editor:
+    fontFamily: "Source Code Pro, Monaco, Menlo"
+    invisibles: {}
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?"
+    scrollPastEnd: true
+    scrollSensitivity: 50
+    showIndentGuide: true
+    softWrap: true
+    softWrapHangingIndent: 2
+  "grammar-selector": {}
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+    minimumLength: 1
+    showInStatusBar: false
+  "one-dark-ui": {}
+  "one-light-ui": {}
+  "status-bar":
+    cursorPositionFormat: "Ln %L, Ch %C"
+    selectionCountFormat: "(Ln %L, Ch %C)"
+  tabs:
+    displayMruTabList: false
+    enableVcsColoring: true
+  "terminal-status": {}
+  "terminal-tab":
+    shellSettings: {}
+  "theme-switcher":
+    syntaxThemeOne: "one-dark-syntax"
+    syntaxThemeTwo: "one-light-syntax"
+  "tree-view":
+    hideIgnoredNames: true
+  "tree-view-autoresize":
+    animationMilliseconds: 0
+    delayMilliseconds: 0
+  welcome:
+    showOnStartup: false
