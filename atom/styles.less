@@ -9,32 +9,23 @@
  * http://lesscss.org
  */
 
+ // Remove italics from comments
+ .syntax--comment {
+   font-style: normal;
+ }
+
 // Give tree-vew some right-padding w/o ruining border styles of project folders
 .list-tree,
 .project-root-header {
   padding-right: 17px;
 }
 
-// Make status bar diff icon less blurry
-.icon-diff {
-  margin-right: 0.5px;
-}
-
-// Hide the unnecessary tree-view "Project" tab bar
-// Caveat: can no longer drag the tree-view to another dock
-// atom-dock .tab-bar {
-//   display: none;
-// }
-
 // Normalize project folders, so bottom-border aligns with tabs
 .project-root-header {
   height: 30px;
 }
 
-// style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-}
-
-// style UI elements inside atom-text-editor
-atom-text-editor .cursor {
+// Make status bar diff icon less blurry
+.icon-diff {
+  margin-right: 0.5px;
 }
