@@ -10,9 +10,9 @@
  */
 
  // Remove italics from comments
- .syntax--comment {
-   font-style: normal;
- }
+.syntax--comment {
+  font-style: normal;
+}
 
 // Give tree-vew some right-padding w/o ruining border styles of project folders
 .list-tree,
@@ -20,12 +20,28 @@
   padding-right: 17px;
 }
 
-// Normalize project folders, so bottom-border aligns with tabs
+// Normalize project folder header, so bottom-border aligns with tabs
 .project-root-header {
   height: 30px;
 }
 
-// Make status bar diff icon less blurry
+// Align status bar diff icon to pixel grid
 .icon-diff {
   margin-right: 0.5px;
+}
+
+// Make "Open Config Folder" button look nicer
+.settings-view .config-menu .btn {
+  line-height: 1.5;
+}
+.settings-view .config-menu .btn::before {
+  vertical-align: -0.1em
+}
+
+// Hide unnecessary status bar ui (w/o removing functionality)
+.line-ending-tile {
+  display: none;
+}
+.encoding-status {
+  display: none;
 }

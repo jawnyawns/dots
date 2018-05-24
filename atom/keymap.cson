@@ -32,9 +32,5 @@
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
 'atom-workspace':
-  'cmd-`': 'terminal:open'
-
-'terminal-view':
-  'cmd-c': 'terminal:copy'
-  'cmd-v': 'terminal:paste'
-  'cmd-k cmd-w': 'pane:close'
+  'alt-t': 'atom-terminal:open'
+  'alt-shift-T': 'atom-terminal:open-project-root'

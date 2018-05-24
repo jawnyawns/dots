@@ -1,4 +1,5 @@
 "*":
+  "atom-terminal": {}
   core:
     audioBeep: false
     closeDeletedFileTabs: true
@@ -8,7 +9,6 @@
       "welcome"
       "timecop"
       "styleguide"
-      "spell-check"
       "package-generator"
       "metrics"
       "link"
@@ -36,6 +36,8 @@
       "language-typescript"
       "language-xml"
       "language-yaml"
+      "language-lua"
+      "teletype"
     ]
     ignoredNames: [
       ".git"
@@ -49,9 +51,9 @@
       "package-lock.json"
     ]
     packagesWithKeymapsDisabled: [
-      "terminal-tab"
+      "atom-terminal"
     ]
-    projectHome: "/Users/John/Documents/Code"
+    projectHome: "/Users/John/Drive/Code"
     reopenProjectMenuCount: 10
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
@@ -75,18 +77,21 @@
   "highlight-selected":
     hideHighlightOnSelectedWord: true
     minimumLength: 1
-    showInStatusBar: false
+    onlyHighlightWholeWords: false
   "one-dark-ui": {}
   "one-light-ui": {}
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
   "status-bar":
     cursorPositionFormat: "Ln %L, Ch %C"
     selectionCountFormat: "(Ln %L, Ch %C)"
+  "tab-control":
+    autoSaveChanges: true
   tabs:
     displayMruTabList: false
     enableVcsColoring: true
-  "terminal-status": {}
-  "terminal-tab":
-    shellSettings: {}
   "theme-switcher":
     syntaxThemeOne: "one-dark-syntax"
     syntaxThemeTwo: "one-light-syntax"
@@ -97,3 +102,15 @@
     delayMilliseconds: 0
   welcome:
     showOnStartup: false
+".cpp.source":
+  editor:
+    softTabs: true
+    tabLength: 4
+".gfm.source":
+  editor:
+    softTabs: true
+    tabLength: 4
+".js.source":
+  editor:
+    softTabs: true
+    tabLength: 2
