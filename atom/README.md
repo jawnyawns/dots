@@ -1,9 +1,9 @@
 # To create a package list
 ```
-apm list --installed --bare > ~/package-list.txt
+apm list --installed --bare > ~/[some-file-path]/package-list.txt
 ```
 
-#  To restore your packages
+# To restore your packages
 ```
-apm install --packages-file ~/package-list.txt
+apm install --packages-file ~/[some-file-path]/package-list.txt
 ```
