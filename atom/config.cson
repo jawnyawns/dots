@@ -67,7 +67,7 @@
   editor:
     fontFamily: "Source Code Pro, Monaco, Menlo"
     invisibles: {}
-    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?"
+    nonWordCharacters: "/\\()\"':,.;<>~!@%^&*|+=[]{}`?"
     scrollPastEnd: true
     scrollSensitivity: 50
     showIndentGuide: true
@@ -76,8 +76,6 @@
   "grammar-selector": {}
   "highlight-selected":
     hideHighlightOnSelectedWord: true
-    minimumLength: 1
-    onlyHighlightWholeWords: false
   "one-dark-ui": {}
   "one-light-ui": {}
   "spell-check":
