@@ -1,5 +1,7 @@
 "*":
   "atom-terminal": {}
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
   core:
     audioBeep: false
     closeDeletedFileTabs: true
@@ -59,13 +61,13 @@
     telemetryConsent: "no"
     themes: [
       "one-light-ui"
-      "one-light-syntax"
+      "atom-light-syntax"
     ]
     titleBar: "custom"
     uriHandlerRegistration: "always"
     warnOnLargeFileLimit: 10
   editor:
-    fontFamily: "Source Code Pro, Monaco, Menlo"
+    fontFamily: "Monaco"
     invisibles: {}
     nonWordCharacters: "/\\()\"':,.;<>~!@%^&*|+=[]{}`?"
     scrollPastEnd: true
@@ -76,6 +78,9 @@
   "grammar-selector": {}
   "highlight-selected":
     hideHighlightOnSelectedWord: true
+    minimumLength: 1
+    onlyHighlightWholeWords: false
+    timeout: 30
   "one-dark-ui": {}
   "one-light-ui": {}
   "spell-check":
