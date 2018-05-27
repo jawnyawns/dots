@@ -1,5 +1,10 @@
 "*":
   "atom-terminal": {}
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "enter"
+    moveToCancel: true
+    suggestionListFollows: "Cursor"
   "bracket-matcher":
     highlightMatchingLineNumber: true
   core:
