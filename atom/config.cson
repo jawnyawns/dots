@@ -53,16 +53,12 @@
       "package-lock.json"
     ]
     packagesWithKeymapsDisabled: [
-      "atom-terminal"
+      "open-terminal-here"
     ]
     projectHome: "/Users/John/Drive/Code"
     reopenProjectMenuCount: 10
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
-    themes: [
-      "one-light-ui"
-      "atom-light-syntax"
-    ]
     titleBar: "custom"
     uriHandlerRegistration: "always"
     warnOnLargeFileLimit: 10

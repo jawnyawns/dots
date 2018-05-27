@@ -31,6 +31,6 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 
-'atom-workspace':
-  'alt-t': 'atom-terminal:open'
-  'alt-shift-T': 'atom-terminal:open-project-root'
+'.platform-darwin atom-workspace':
+  'alt-t': 'open-terminal-here:open'
+  'alt-shift-t': 'open-terminal-here:open-root'
