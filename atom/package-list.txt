@@ -4,5 +4,5 @@ language-lua@0.9.11
 open-terminal-here@2.3.2
 resize-indent@0.3.0
 tab-control@0.6.10
-teletype@0.13.2
+teletype@0.13.3
 theme-switcher@1.1.0
