@@ -1,0 +1,26 @@
+{
+	"animation_enabled": false,
+	"caret_blink_interval": 0.67,
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 7,
+	"caret_style": "blink",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"drag_text": false,
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_face": "Menlo",
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": 0,
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"theme": "Default.sublime-theme",
+	"tree_animation_enabled": false,
+	"trim_trailing_white_space_on_save": true
+}
