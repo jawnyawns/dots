@@ -1,3 +1,4 @@
 Package Control
 Elm Language Support
-TerminalView
+SideBarEnhancements
+Terminal

@@ -1,5 +1,7 @@
 [
 	{ "keys": ["super+\\"], "command": "toggle_side_bar" },
-	{ "keys": ["ctrl+alt+o"], "command": "open_dir",  "args": {"dir": "$file_path", "file": "$file_name"} },
-	{ "keys": ["ctrl+alt+o"], "command": "open_dir",  "args": {"dir": "$file_path", "file": "$file_name"} }
+	{ "keys": ["ctrl+o"], "command": "open_dir",  "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+shift+o"], "command": "open_dir",  "args": {"dir": "$file_path"} },
+	{ "keys": ["alt+t"], "command": "open_terminal" },
+	{ "keys": ["shift+alt+t"], "command": "open_terminal_project_folder" }
 ]
