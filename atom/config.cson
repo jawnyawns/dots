@@ -43,7 +43,6 @@
       "language-typescript"
       "language-xml"
       "language-yaml"
-      "language-lua"
       "teletype"
     ]
     ignoredNames: [
@@ -68,8 +67,9 @@
     uriHandlerRegistration: "always"
     warnOnLargeFileLimit: 10
   editor:
-    fontFamily: "Monaco"
+    fontFamily: "Source Code Pro"
     invisibles: {}
+    lineHeight: 1.4
     nonWordCharacters: "/\\()\"':,.;<>~!@%^&*|+=[]{}`?"
     scrollPastEnd: true
     scrollSensitivity: 50
@@ -82,6 +82,8 @@
     minimumLength: 1
     onlyHighlightWholeWords: false
     timeout: 30
+  "language-elm": {}
+  "markdown-preview": {}
   "one-dark-ui": {}
   "one-light-ui": {}
   "spell-check":
@@ -110,6 +112,10 @@
   editor:
     softTabs: true
     tabLength: 4
+".elm.source":
+  editor:
+    softTabs: true
+    tabLength: 4
 ".gfm.source":
   editor:
     softTabs: true
@@ -118,3 +124,7 @@
   editor:
     softTabs: true
     tabLength: 2
+".null-grammar.plain.text":
+  editor:
+    softTabs: true
+    tabLength: 4
