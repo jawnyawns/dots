@@ -1,18 +1,19 @@
 {
 	"animation_enabled": false,
+	"bold_folder_labels": true,
 	"caret_blink_interval": 0.75,
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
-	"caret_extra_width": 8,
+	"caret_extra_width": 9,
 	"caret_style": "blink",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/10% Too Dull for My Tastes Color Scheme/scotchy.tmTheme",
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"font_face": "Menlo",
+	"font_face": "Monaco",
 	"font_size": 14,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -20,6 +21,7 @@
 	"margin": 0,
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
+	"show_tab_close_buttons": false,
 	"theme": "Default.sublime-theme",
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true
