@@ -1,50 +1,7 @@
 "*":
-  "atom-terminal": {}
-  "autocomplete-plus":
-    backspaceTriggersAutocomplete: true
-    confirmCompletion: "enter"
-    moveToCancel: true
-    suggestionListFollows: "Cursor"
-  "bracket-matcher":
-    highlightMatchingLineNumber: true
   core:
     audioBeep: false
-    closeDeletedFileTabs: true
-    disabledPackages: [
-      "about"
-      "wrap-guide"
-      "welcome"
-      "timecop"
-      "styleguide"
-      "package-generator"
-      "metrics"
-      "link"
-      "autoflow"
-      "autosave"
-      "background-tips"
-      "exception-reporting"
-      "archive-view"
-      "autocomplete-atom-api"
-      "keybinding-resolver"
-      "language-clojure"
-      "language-csharp"
-      "language-go"
-      "language-java"
-      "language-make"
-      "language-mustache"
-      "language-objective-c"
-      "language-perl"
-      "language-php"
-      "language-ruby"
-      "language-ruby-on-rails"
-      "language-sass"
-      "language-sql"
-      "language-toml"
-      "language-typescript"
-      "language-xml"
-      "language-yaml"
-      "teletype"
-    ]
+    destroyEmptyPanes: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -53,78 +10,43 @@
       "._*"
       "Thumbs.db"
       "desktop.ini"
-      "node_modules"
-      "package-lock.json"
+      "._DS_Store"
     ]
-    packagesWithKeymapsDisabled: [
-      "open-terminal-here"
-    ]
-    projectHome: "/Users/John/Drive/Code"
+    projectHome: "/Users/johnchinjew/"
     reopenProjectMenuCount: 10
-    restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
-    titleBar: "custom"
-    uriHandlerRegistration: "always"
-    warnOnLargeFileLimit: 10
-  editor:
-    fontFamily: "Source Code Pro"
-    invisibles: {}
-    lineHeight: 1.4
-    nonWordCharacters: "/\\()\"':,.;<>~!@%^&*|+=[]{}`?"
-    scrollPastEnd: true
-    scrollSensitivity: 50
-    showIndentGuide: true
-    softWrap: true
-    softWrapHangingIndent: 2
-  "grammar-selector": {}
-  "highlight-selected":
-    hideHighlightOnSelectedWord: true
-    minimumLength: 1
-    onlyHighlightWholeWords: false
-    timeout: 30
-  "language-elm": {}
-  "markdown-preview": {}
-  "one-dark-ui": {}
-  "one-light-ui": {}
-  "spell-check":
-    locales: [
-      "en-US"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
     ]
-  "status-bar":
-    cursorPositionFormat: "Ln %L, Ch %C"
-    selectionCountFormat: "(Ln %L, Ch %C)"
-  "tab-control":
-    autoSaveChanges: true
+    titleBar: "custom"
+    warnOnLargeFileLimit: 5
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Menlo"
+    lineHeight: 1.25
+    maxScreenLineLength: 9999
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?…"
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
+    undoGroupingInterval: 250
+  "exception-reporting":
+    userId: "7c5da635-1962-4272-b6f7-074ca1476a28"
+  "fuzzy-finder":
+    preserveLastSearch: true
+  "pp-markdown":
+    cssURL: "markdown"
+  "selection-counter":
+    hideWhenNoSelections: true
+    statusString: "(%s)"
+  "split-diff": {}
+  "status-bar": {}
   tabs:
-    displayMruTabList: false
     enableVcsColoring: true
-  "theme-switcher":
-    syntaxThemeOne: "one-dark-syntax"
-    syntaxThemeTwo: "one-light-syntax"
-  "tree-view":
-    hideIgnoredNames: true
-  "tree-view-autoresize":
-    animationMilliseconds: 0
-    delayMilliseconds: 0
+  teletype:
+    askBeforeJoiningPortalViaExternalApp: false
+  "theme-switcher": {}
   welcome:
     showOnStartup: false
-".cpp.source":
-  editor:
-    softTabs: true
-    tabLength: 4
-".elm.source":
-  editor:
-    softTabs: true
-    tabLength: 4
-".gfm.source":
-  editor:
-    softTabs: true
-    tabLength: 4
-".js.source":
-  editor:
-    softTabs: true
-    tabLength: 2
-".null-grammar.plain.text":
-  editor:
-    softTabs: true
-    tabLength: 4
