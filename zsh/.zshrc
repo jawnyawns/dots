@@ -1,3 +1,2 @@
 setopt PROMPT_SUBST
-PROMPT='%B${(%):-%~}%b
-$ '
+PROMPT='%B${(%):-%~}%b ▶ '
