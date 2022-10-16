@@ -1,4 +1,0 @@
-Package Control
-Elm Language Support
-SideBarEnhancements
-Terminal

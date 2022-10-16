@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Elm Format on Save",
+		"Elm Snippets",
+		"Elm Syntax Highlighting",
+		"Firebase Rules Syntax",
+		"Package Control",
+		"SideBarTools",
+		"Solarized Color Scheme",
+		"SortBy",
+	],
+}
