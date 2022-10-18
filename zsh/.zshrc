@@ -1,1 +1,1 @@
-PROMPT='%B[%1d]%b ▶ '
+PROMPT='%B%1d%b ▶ '
