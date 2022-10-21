@@ -26,5 +26,4 @@ set statusline=%f
 
 "spaces > tabs
 set expandtab
-
 set tabstop=4
