@@ -18,6 +18,7 @@ set whichwrap+=<,>,h,l,[,]
 
 "enable line numbers
 set number
+set relativenumber
 
 "show status bar
 set laststatus=2
@@ -25,4 +26,5 @@ set statusline=%f
 
 "spaces > tabs
 set expandtab
+
 set tabstop=4
