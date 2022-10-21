@@ -22,3 +22,7 @@ set number
 "show status bar
 set laststatus=2
 set statusline=%f
+
+"spaces > tabs
+set expandtab
+set tabstop=4
