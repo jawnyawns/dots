@@ -2,7 +2,7 @@
 	"animation_enabled": false,
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
-	"caret_extra_width": 9,
+	"caret_extra_width": 8,
 	"caret_style": "blink",
 	"color_scheme": "Solarized (dark).sublime-color-scheme",
 	"drag_text": false,
