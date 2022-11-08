@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["super+shift+alt+t"], "command": "open_terminal_project_folder" }
+]
