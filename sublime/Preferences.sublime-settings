@@ -6,7 +6,6 @@
 	"caret_style": "blink",
 	"color_scheme": "Solarized (dark).sublime-color-scheme",
 	"drag_text": false,
-	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns": [],
 	"font_face": "Menlo",
